@@ -10,8 +10,10 @@ Este projeto foi desenvolvido em C# e é composto por duas partes principais:
         - Adicionar itens ao pedido.
         - Remover itens do pedido.
         - Visualizar o pedido atual.
-        - Finalizar o pedido, calculando o valor total e aplicando um desconto de 10% se o valor bruto ultrapassar R$ 100,00.
-    - O código utiliza estruturas como `if/else`, `switch/case`, loops (`for` e `while`), operador ternário e funções personalizadas.
+        - Finalizar o pedido, calculando o valor total e aplicando um desconto de 10% se o valor bruto ultrapassar R$
+          100,00.
+    - O código utiliza estruturas como `if/else`, `switch/case`, loops (`for` e `while`), operador ternário e funções
+      personalizadas.
 
 2. **Interface Gráfica (Windows Forms)**:
     - Apresenta o layout visual da lanchonete virtual com controles como:
@@ -24,11 +26,13 @@ Este projeto foi desenvolvido em C# e é composto por duas partes principais:
 ## Como Executar
 
 ### Aplicação Console
+
 1. Abra o projeto no Visual Studio.
 2. Compile o projeto (pressione `F5` ou clique em "Iniciar").
 3. Execute o programa e siga as instruções exibidas no console para navegar pelo menu.
 
 ### Interface Gráfica (Windows Forms)
+
 1. Abra o projeto no Visual Studio.
 2. Compile o projeto (pressione `F5` ou clique em "Iniciar").
 3. Execute o programa para visualizar o formulário da lanchonete virtual.

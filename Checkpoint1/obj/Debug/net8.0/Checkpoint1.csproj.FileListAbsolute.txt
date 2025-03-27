@@ -1,0 +1,14 @@
+/Users/leonardoschunckrainha/Documents/programming/fiap/c-sharp/Checkpoint1/Checkpoint1/bin/Debug/net8.0/Checkpoint1
+/Users/leonardoschunckrainha/Documents/programming/fiap/c-sharp/Checkpoint1/Checkpoint1/bin/Debug/net8.0/Checkpoint1.deps.json
+/Users/leonardoschunckrainha/Documents/programming/fiap/c-sharp/Checkpoint1/Checkpoint1/bin/Debug/net8.0/Checkpoint1.runtimeconfig.json
+/Users/leonardoschunckrainha/Documents/programming/fiap/c-sharp/Checkpoint1/Checkpoint1/bin/Debug/net8.0/Checkpoint1.dll
+/Users/leonardoschunckrainha/Documents/programming/fiap/c-sharp/Checkpoint1/Checkpoint1/bin/Debug/net8.0/Checkpoint1.pdb
+/Users/leonardoschunckrainha/Documents/programming/fiap/c-sharp/Checkpoint1/Checkpoint1/obj/Debug/net8.0/Checkpoint1.GeneratedMSBuildEditorConfig.editorconfig
+/Users/leonardoschunckrainha/Documents/programming/fiap/c-sharp/Checkpoint1/Checkpoint1/obj/Debug/net8.0/Checkpoint1.AssemblyInfoInputs.cache
+/Users/leonardoschunckrainha/Documents/programming/fiap/c-sharp/Checkpoint1/Checkpoint1/obj/Debug/net8.0/Checkpoint1.AssemblyInfo.cs
+/Users/leonardoschunckrainha/Documents/programming/fiap/c-sharp/Checkpoint1/Checkpoint1/obj/Debug/net8.0/Checkpoint1.csproj.CoreCompileInputs.cache
+/Users/leonardoschunckrainha/Documents/programming/fiap/c-sharp/Checkpoint1/Checkpoint1/obj/Debug/net8.0/Checkpoint1.dll
+/Users/leonardoschunckrainha/Documents/programming/fiap/c-sharp/Checkpoint1/Checkpoint1/obj/Debug/net8.0/refint/Checkpoint1.dll
+/Users/leonardoschunckrainha/Documents/programming/fiap/c-sharp/Checkpoint1/Checkpoint1/obj/Debug/net8.0/Checkpoint1.pdb
+/Users/leonardoschunckrainha/Documents/programming/fiap/c-sharp/Checkpoint1/Checkpoint1/obj/Debug/net8.0/Checkpoint1.genruntimeconfig.cache
+/Users/leonardoschunckrainha/Documents/programming/fiap/c-sharp/Checkpoint1/Checkpoint1/obj/Debug/net8.0/ref/Checkpoint1.dll

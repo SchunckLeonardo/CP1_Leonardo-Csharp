@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Checkpoint1", "Checkpoint1\Checkpoint1.csproj", "{FEAF67D1-5C43-4FB2-9837-02961769046C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FEAF67D1-5C43-4FB2-9837-02961769046C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEAF67D1-5C43-4FB2-9837-02961769046C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEAF67D1-5C43-4FB2-9837-02961769046C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEAF67D1-5C43-4FB2-9837-02961769046C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

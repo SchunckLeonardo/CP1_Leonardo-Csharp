@@ -1,0 +1,17 @@
+C:\Users\labsfiap\source\repos\Checkpoint1Forms\Checkpoint1Forms\bin\Debug\net8.0-windows\Checkpoint1Forms.exe
+C:\Users\labsfiap\source\repos\Checkpoint1Forms\Checkpoint1Forms\bin\Debug\net8.0-windows\Checkpoint1Forms.deps.json
+C:\Users\labsfiap\source\repos\Checkpoint1Forms\Checkpoint1Forms\bin\Debug\net8.0-windows\Checkpoint1Forms.runtimeconfig.json
+C:\Users\labsfiap\source\repos\Checkpoint1Forms\Checkpoint1Forms\bin\Debug\net8.0-windows\Checkpoint1Forms.dll
+C:\Users\labsfiap\source\repos\Checkpoint1Forms\Checkpoint1Forms\bin\Debug\net8.0-windows\Checkpoint1Forms.pdb
+C:\Users\labsfiap\source\repos\Checkpoint1Forms\Checkpoint1Forms\obj\Debug\net8.0-windows\Checkpoint1Forms.Form1.resources
+C:\Users\labsfiap\source\repos\Checkpoint1Forms\Checkpoint1Forms\obj\Debug\net8.0-windows\Checkpoint1Forms.csproj.GenerateResource.cache
+C:\Users\labsfiap\source\repos\Checkpoint1Forms\Checkpoint1Forms\obj\Debug\net8.0-windows\Checkpoint1Forms.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\labsfiap\source\repos\Checkpoint1Forms\Checkpoint1Forms\obj\Debug\net8.0-windows\Checkpoint1Forms.AssemblyInfoInputs.cache
+C:\Users\labsfiap\source\repos\Checkpoint1Forms\Checkpoint1Forms\obj\Debug\net8.0-windows\Checkpoint1Forms.AssemblyInfo.cs
+C:\Users\labsfiap\source\repos\Checkpoint1Forms\Checkpoint1Forms\obj\Debug\net8.0-windows\Checkpoint1Forms.csproj.CoreCompileInputs.cache
+C:\Users\labsfiap\source\repos\Checkpoint1Forms\Checkpoint1Forms\obj\Debug\net8.0-windows\Checkpoint1Forms.sourcelink.json
+C:\Users\labsfiap\source\repos\Checkpoint1Forms\Checkpoint1Forms\obj\Debug\net8.0-windows\Checkpoint1Forms.dll
+C:\Users\labsfiap\source\repos\Checkpoint1Forms\Checkpoint1Forms\obj\Debug\net8.0-windows\refint\Checkpoint1Forms.dll
+C:\Users\labsfiap\source\repos\Checkpoint1Forms\Checkpoint1Forms\obj\Debug\net8.0-windows\Checkpoint1Forms.pdb
+C:\Users\labsfiap\source\repos\Checkpoint1Forms\Checkpoint1Forms\obj\Debug\net8.0-windows\Checkpoint1Forms.genruntimeconfig.cache
+C:\Users\labsfiap\source\repos\Checkpoint1Forms\Checkpoint1Forms\obj\Debug\net8.0-windows\ref\Checkpoint1Forms.dll

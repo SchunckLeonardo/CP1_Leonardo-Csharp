@@ -9,7 +9,7 @@ namespace Checkpoint1
         public string Nome { get; set; }
         public decimal Preco { get; set; }
     }
-    
+
     public class ItemPedido
     {
         public Produto Produto { get; set; }
@@ -24,6 +24,7 @@ namespace Checkpoint1
             new Produto { Nome = "Refrigerante", Preco = 5.00m },
             new Produto { Nome = "Sorvete", Preco = 7.50m }
         };
+
         static List<ItemPedido> pedido = new List<ItemPedido>();
 
         static void Main(string[] args)
@@ -58,7 +59,7 @@ namespace Checkpoint1
                 }
             }
         }
-        
+
         static void ExibirMenu()
         {
             Console.WriteLine("\n=== Menu da Lanchonete Virtual ===");
@@ -68,7 +69,7 @@ namespace Checkpoint1
             Console.WriteLine("d. Visualizar pedido atual");
             Console.WriteLine("e. Finalizar pedido e sair");
         }
-        
+
         static void ListarProdutos()
         {
             Console.WriteLine("\nProdutos disponíveis:");
@@ -77,7 +78,7 @@ namespace Checkpoint1
                 Console.WriteLine($"{i + 1}. {produtos[i].Nome} - R$ {produtos[i].Preco}");
             }
         }
-        
+
         static void AdicionarAoPedido()
         {
             ListarProdutos();
@@ -97,6 +98,7 @@ namespace Checkpoint1
                     {
                         pedido.Add(new ItemPedido { Produto = produtoSelecionado, Quantidade = quantidade });
                     }
+
                     Console.WriteLine("Produto adicionado ao pedido com sucesso!");
                 }
                 else
@@ -117,24 +119,67 @@ namespace Checkpoint1
                 Console.WriteLine("\nO pedido está vazio.");
                 return;
             }
-
+            
             Console.WriteLine("\nItens no pedido:");
             for (int i = 0; i < pedido.Count; i++)
             {
                 Console.WriteLine($"{i + 1}. {pedido[i].Produto.Nome} - Quantidade: {pedido[i].Quantidade}");
             }
-            Console.Write("Digite o número do item a ser removido: ");
+            
+            Console.Write("Digite o número do item a ser modificado: ");
             if (int.TryParse(Console.ReadLine(), out int numItem) && numItem > 0 && numItem <= pedido.Count)
             {
-                pedido.RemoveAt(numItem - 1);
-                Console.WriteLine("Item removido do pedido com sucesso!");
+                ItemPedido itemSelecionado = pedido[numItem - 1];
+                Console.WriteLine(
+                    $"\nItem selecionado: {itemSelecionado.Produto.Nome} - Quantidade: {itemSelecionado.Quantidade}");
+                
+                Console.WriteLine("Escolha uma opção:");
+                Console.WriteLine("1. Decrementar quantidade");
+                Console.WriteLine("2. Remover completamente");
+                Console.Write("Opção: ");
+                string opcaoRemocao = Console.ReadLine();
+
+                switch (opcaoRemocao)
+                {
+                    case "1":
+                        Console.Write("Digite a quantidade a ser removida: ");
+                        if (int.TryParse(Console.ReadLine(), out int qtdRemover) && qtdRemover > 0)
+                        {
+                            if (qtdRemover >= itemSelecionado.Quantidade)
+                            {
+                                pedido.RemoveAt(numItem - 1);
+                                Console.WriteLine("Item removido completamente do pedido.");
+                            }
+                            else
+                            {
+                                itemSelecionado.Quantidade -= qtdRemover;
+                                Console.WriteLine(
+                                    $"Quantidade decrementada. Nova quantidade: {itemSelecionado.Quantidade}");
+                            }
+                        }
+                        else
+                        {
+                            Console.WriteLine("Quantidade inválida.");
+                        }
+
+                        break;
+
+                    case "2":
+                        pedido.RemoveAt(numItem - 1);
+                        Console.WriteLine("Item removido completamente do pedido.");
+                        break;
+
+                    default:
+                        Console.WriteLine("Opção inválida.");
+                        break;
+                }
             }
             else
             {
                 Console.WriteLine("Item inválido.");
             }
         }
-        
+
         static void VisualizarPedido()
         {
             if (pedido.Count == 0)
@@ -149,12 +194,14 @@ namespace Checkpoint1
             {
                 ItemPedido item = pedido[i];
                 decimal subtotal = item.Produto.Preco * item.Quantidade;
-                Console.WriteLine($"{i + 1}. {item.Produto.Nome} - Quantidade: {item.Quantidade} - Subtotal: R$ {subtotal}");
+                Console.WriteLine(
+                    $"{i + 1}. {item.Produto.Nome} - Quantidade: {item.Quantidade} - Subtotal: R$ {subtotal}");
                 total += subtotal;
             }
+
             Console.WriteLine($"Total: R$ {total}");
         }
-        
+
         static bool FinalizarPedido()
         {
             if (pedido.Count == 0)
@@ -174,6 +221,7 @@ namespace Checkpoint1
             {
                 Console.WriteLine($"Desconto aplicado (10%): R$ {desconto}");
             }
+
             Console.WriteLine($"Valor final a pagar: R$ {totalFinal}");
             Console.WriteLine("Obrigado por comprar na Lanchonete Virtual!");
             return false;
